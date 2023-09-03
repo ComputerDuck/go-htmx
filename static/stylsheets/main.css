@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #bbb;
+    align-items: center;
+    display: flex;
+    
+}
+
+header > * {
+    margin: 0 10px;
+    position: relative;
+}
+
+.header-search {
+    border: solid 1px black;
+    width: fit-content;
+    padding: 2px 5px;
+    border-radius: 20px;
+}
+.header-search-input {
+    width: 200px;
+    font-size: 1.2rem;
+    background-color: inherit;
+    border: none;
+    outline: none;
+}
